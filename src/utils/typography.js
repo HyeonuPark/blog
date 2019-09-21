@@ -13,12 +13,6 @@ Wordpress2016.overrideThemeStyles = () => {
 }
 
 delete Wordpress2016.googleFonts
-Wordpress2016.googleFonts = [
-  {
-    name: "Nanum Gothic",
-    styles: [],
-  },
-]
 
 const typography = new Typography(Wordpress2016)
 
