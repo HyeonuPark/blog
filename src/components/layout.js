@@ -65,14 +65,18 @@ class Layout extends React.Component {
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org" >Gatsby</a>
-          , published under
-          {` `}
-          <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>
-          <br/>
+          <a href="https://www.gatsbyjs.org">Gatsby</a>, published under{" "}
+          <a href="http://creativecommons.org/licenses/by/3.0/">
+            Creative Commons Attribution 3.0 Unported License
+          </a>
+          <br />
           <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
-            <img alt="Creative Commons License" style={{margin: 0}} src="https://i.creativecommons.org/l/by/3.0/88x31.png" />
-            </a>
+            <img
+              alt="Creative Commons License"
+              style={{ margin: 0 }}
+              src="https://i.creativecommons.org/l/by/3.0/88x31.png"
+            />
+          </a>
         </footer>
       </div>
     )

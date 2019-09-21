@@ -51,9 +51,9 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives for the great evil language hipster.
-        {' '}
-        <a href={'https://github.com/HyeonuPark'}>Check my github!</a>
+        Written by <strong>{author}</strong> who lives for the great evil
+        language hipster.{" "}
+        <a href={"https://github.com/HyeonuPark"}>Check my github!</a>
       </p>
     </div>
   )

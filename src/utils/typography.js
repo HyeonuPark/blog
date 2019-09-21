@@ -6,18 +6,18 @@ Wordpress2016.overrideThemeStyles = () => {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
-    "body": {
-      fontFamily: 'Merriweather, Georgia, Nanum Gothic, serif'
-    }
+    body: {
+      fontFamily: "Merriweather, Georgia, Nanum Gothic, serif",
+    },
   }
 }
 
 delete Wordpress2016.googleFonts
 Wordpress2016.googleFonts = [
   {
-    name: 'Nanum Gothic',
-    styles: []
-  }
+    name: "Nanum Gothic",
+    styles: [],
+  },
 ]
 
 const typography = new Typography(Wordpress2016)

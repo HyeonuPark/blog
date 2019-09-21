@@ -1,5 +1,4 @@
-Blog
-=====
+# Blog
 
 Source code of my own blog. Currently powered by Gatsby and Netlify.
 
